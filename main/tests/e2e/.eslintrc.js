@@ -4,7 +4,8 @@ module.exports = {
   ],
   env: {
     mocha: true,
-    'cypress/globals': true
+    'cypress/globals': true,
+    'vue/setup-compiler-macros': true
   },
   rules: {
     strict: 'off'
