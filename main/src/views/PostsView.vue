@@ -14,6 +14,7 @@
 <script setup lang="ts">
   import { reactive } from "vue";
   import PostCard from "../components/PostCard.vue";
+  import { useStore } from 'vuex';
 
   const state = reactive({
     listItems: [] as object[],
